@@ -5,7 +5,7 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    title: qsTr("qtegrastats")
     //flags: Qt.WindowStaysOnBottomHint | Qt.FramelessWindowHint;
     color: "#000000"
 
@@ -23,7 +23,7 @@ Window {
             Text {
                 id: title_text
                 color: "#ffffff"
-                text: qsTr("CPU")
+                text: "CPU"
                 font.pixelSize: 36
             }
         }
@@ -48,7 +48,7 @@ Window {
                     width: 60
                     height: 60
                     color: "#ffffff"
-                    text: qsTr("100%")
+                    text: tegraStats.cpu0
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
                     font.pixelSize: 18
@@ -63,7 +63,7 @@ Window {
                     width: 60
                     height: 60
                     color: "#ffffff"
-                    text: qsTr("100%")
+                    text: tegraStats.cpu1
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
                     font.pixelSize: 18
@@ -78,7 +78,7 @@ Window {
                     width: 60
                     height: 60
                     color: "#ffffff"
-                    text: qsTr("100%")
+                    text: tegraStats.cpu2
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
                     font.pixelSize: 18
@@ -93,7 +93,7 @@ Window {
                     width: 60
                     height: 60
                     color: "#ffffff"
-                    text: qsTr("100%")
+                    text: tegraStats.cpu3
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
                     font.pixelSize: 18
